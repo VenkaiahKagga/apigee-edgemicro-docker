@@ -8,6 +8,7 @@ ARG ENV=someenv
 #ENV EDGEMICRO_ENV=$ENV
 #ENV EDGEMICRO_KEY=$KEY
 #ENV EDGEMICRO_SECRET=$SECRET
+#ENV ENV EDGEMICRO_CONFIG_DIR=/home/microgateway/.edgemicro
 
 RUN groupadd microgateway
 RUN useradd microgateway -g microgateway -m -d /home/microgateway
